@@ -55,8 +55,10 @@ const App = () => {
   };
 
   return (
-    <div className="game-board">
-      {cards.map((_, index) => renderCard(index))}
+    <div><h1>MEMORY GAME</h1>
+      <div className="game-board">
+        {cards.map((_, index) => renderCard(index))}
+      </div>
     </div>
   );
 };
